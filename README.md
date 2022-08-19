@@ -14,7 +14,7 @@
 
 ## 注意
 
-请提前给jshook设置悬浮窗权限，且保持运行状态，否则mod菜单无法显示，jshook关闭后功能会继续生效不受影响，只是悬浮菜单会关闭
+请提前给jshook/BlackBox设置悬浮窗权限，且保持运行状态，否则mod菜单无法显示，jshook关闭后功能会继续生效不受影响，只是悬浮菜单会关闭
 
 如果你使用的是lsp框架，除了勾选系统框架激活，还需要勾选需要启用服务的app，只有勾选系统框架手机才需要重启，其他app不需要重启
 
@@ -26,6 +26,8 @@ lsp勾选看不到游戏？在右上角的过滤中关闭对游戏app的过滤�
 
 注入成功了，有注入成功提示框，但是进入游戏后直接闪退怎么办？
 对于部分机型，比如我手机小米12pro，8gen1的cpu，就有这样的问题，需要使用启动配置，自己算一下进入游戏到城镇大厅需要多少秒，我设置的是30秒，在进入城镇大厅后注入就不会闪退了。
+
+我用免root模式给游戏注入hook服务，打开游戏黑屏怎么办？这个游戏不支持jshook的免root模式，你需要卸载重装回官方原版，然后使用下面这个方案才可以。
 
 没有root环境怎么办？[https://github.com/etjson/download/releases/tag/files](https://github.com/etjson/download/releases/tag/files)
 在这里下载该游戏对应架构的**app-BlackBox64.apk**使用该app激活jshook，且jshook需要切换为root模式，BlackBox已经是免root环境了，所以jshook不要在切换为免root模式。
