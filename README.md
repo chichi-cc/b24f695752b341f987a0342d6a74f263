@@ -20,7 +20,7 @@
 
 lsp勾选看不到游戏？在右上角的过滤中关闭对游戏app的过滤即可显示勾选
 
-**(最新版已修复该问题)**
+**(jshook最新版已修复该问题)**
 ~~如果你所有的操作都做对了，最后打开游戏连注入提示都没有，访问下面这个链接，手动下载frida-mod的包，进入jshook框架管理点击右上角新建框架，选择第二个选项导入这个mod包，在选择这个自定义框架进入游戏就可以了
 [https://github.com/etjson/download/releases/tag/files](https://github.com/etjson/download/releases/tag/files)~~
 
@@ -30,7 +30,7 @@ lsp勾选看不到游戏？在右上角的过滤中关闭对游戏app的过滤�
 我用免root模式给游戏注入hook服务，打开游戏黑屏怎么办？这个游戏不支持jshook的免root模式，你需要卸载重装回官方原版，然后使用下面这个方案才可以。
 
 没有root环境怎么办？[https://github.com/etjson/download/releases/tag/files](https://github.com/etjson/download/releases/tag/files)
-在这里下载该游戏对应架构的**app-BlackBox64.apk**使用该app激活jshook，且jshook需要切换为root模式，BlackBox已经是免root环境了，所以jshook不要在切换为免root模式。
+在这里下载该游戏对应架构的**app-BlackBox64.apk**使用该app激活jshook，且jshook需要切换为root模式，BlackBox已经是免root环境了，所以jshook不要在切换为免root模式，BlackBox除了设置中启用xposed框架，还需要在模块管理中确认勾选jshook。
 
 ## 截图
 
