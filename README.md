@@ -36,10 +36,6 @@ lsp勾选看不到游戏？在右上角的过滤中关闭对游戏app的过滤�
 
 目前暂时不支持鸿蒙系统。
 
-## 重点更新
-
-mod版本>=1.2从基址方案调整为il2cpp-bridge方案，只要该游戏unitymethod不做变更，将无视游戏版本更新。
-
 ## 截图
 
 [http://article.biliimg.com/bfs/article/fdd8dafc9141217567e050f3d8be9878408ff907.jpg](http://article.biliimg.com/bfs/article/fdd8dafc9141217567e050f3d8be9878408ff907.jpg)
@@ -115,7 +111,3 @@ mod版本>=1.2从基址方案调整为il2cpp-bridge方案，只要该游戏unity
 - ？？？，隐藏功能，进游戏查看使用条件
 
 - 魂卡奖励，直接获得魂卡奖励，不需要进图打
-
-## 脚本开发教程以及开源时间
-
-TG群中通知
